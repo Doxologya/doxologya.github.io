@@ -1,0 +1,13 @@
+
+# Site settings
+title: Doxologya
+email:
+description: Ministerio Cristiano en San Antonio
+baseurl: ""
+url: "http://doxologya.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,142 @@
+---
+layout: default
+
+header:
+  title: Doxologya
+  core: Evangelización - Compañerismo - Discipulado - Ministerio - Adoración
+
+welcome:
+  titlemessage: Bienvenidos!
+
+locations:
+  titlemessage: Acompáñanos este Domingo!
+
+  gozoypaz:
+    title: Gozo y Paz
+    image:
+    area: West
+
+  elcamino:
+    title: El Camino
+    image:
+    area: Bandera
+
+events:
+  titlemessage: Eventos
+
+saca:
+  titlemessage:
+  title: San Antonio Community Action
+  description: this is a description of saca
+
+cedecam:
+  titlemessage:
+  title: Centro de Capacitacion Ministerial
+  description: this is a description of cedecam
+
+
+---
+
+<div class="">
+
+  <!-- header section -->
+  <section id="mp-header" class="module parallax-header">
+    <div class="text-center">
+      <h1>{{page.header.title}}</h1>
+      <h3 class="white-text">{{page.header.core}}</h3>
+    </div>
+
+  </section>
+
+  <!-- welcome section -->
+  <section id="mp-section--welcome">
+    <div class="container text-center">
+      <h1 class="section-title">{{page.welcome.titlemessage}}</h1>
+    </div>
+  </section>
+
+  <!-- church locations section -->
+  <section id="mp-section--locations">
+    <div class="container text-center">
+      <h1 class="section-title">{{page.locations.titlemessage}}</h1>
+
+      <!-- church locations -->
+      <div class="container">
+        <div class="row">
+
+          <!-- gozo y paz -->
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <a href="/gozoypaz" class="no-style">
+              <!-- area -->
+              <h1 class="church-location--area">{{page.locations.gozoypaz.area}}</h1>
+              <!-- image -->
+              <img src="{{page.locations.gozoypaz.image}}" alt="Gozo y Paz" />
+              <!-- title -->
+              <h1 class="church-location--title">{{page.locations.gozoypaz.title}}</h1>
+            </a>
+          </div>
+
+          <!-- el camino -->
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <a href="/elcamino" class="no-style">
+              <!-- area -->
+              <h1 class="church-location--area">{{page.locations.elcamino.area}}</h1>
+              <!-- image -->
+              <img src="{{page.locations.elcamino.image}}" alt="El Camino" />
+              <!-- title -->
+              <h1 class="church-location--title">{{page.locations.elcamino.title}}</h1>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- events section -->
+  <section id="mp-section--events">
+    <div class="container text-center">
+      <h1 class="section-title">{{page.events.titlemessage}}</h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- saca section -->
+  <section id="mp-section--saca">
+    <div class="container text-center">
+      <a href="/saca">
+        <h1 class="section-title">{{page.saca.title}}</h1>
+      </a>
+      <h4>{{page.saca.description}}</h4>
+      <button class="btn">
+        <a href="/saca">Mas</a>
+      </button>
+    </div>
+  </section>
+
+  <!-- cedacam section -->
+  <section id="mp-section--cedecam">
+    <div class="conatiner text-center">
+      <a href="/cedecam">
+        <h1 class="section-title">{{page.cedecam.title}}</h1>
+      </a>
+      <h4>{{page.cedecam.description}}</h4>
+      <button class="btn">
+        <a href="/cedecam">Mas</a>
+      </button>
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,201 @@
+//
+// global
+//
+.padding-top {
+  padding-top: 50px;
+}
+section {
+  padding: 100px 0;
+}
+a, .no-style:hover {
+  text-decoration: none;
+}
+
+.white-text {
+  color: white
+}
+
+
+
+// welcome section
+#mp-section--welcome {
+  .section-title {
+    font-weight: normal;
+  }
+
+}
+
+// church locations section
+#mp-section--locations {
+  background-color: black;
+
+  .section-title {
+    color: white;
+    font-weight: normal;
+  }
+
+
+  // church location title
+  .church-location--title {
+    color: white;
+    font-weight: lighter;
+  }
+  // church location area
+  .church-location--area {
+    color: white;
+    font-weight: lighter;
+
+  }
+}
+
+// events section
+#mp-section--events {
+  .section-title {
+    // color: white;
+    font-weight: normal;
+  }
+}
+
+// saca section
+#mp-section--saca {
+  background-color: #95a5a6;
+  color: white;
+  .section-title {
+    font-weight: normal;
+    color: white;
+  }
+}
+// cedecam section
+#mp-section--cedecam {
+  background-color: #e67e22;
+  color: white;
+  .section-title {
+    font-weight: normal;
+    color: white;
+  }
+}
+
+
+
+
+// church page
+// header
+#cp-header--gozoypaz {
+  background-color: red;
+}
+
+#cp-header--elcamino {
+  background-color: #2c3e50;
+  color: white;
+}
+// welcome
+#cp-welcome--gozoypaz {
+
+}
+#cp-welcome--elcamino {
+  background-color: #bdc3c7;
+  .section-title {
+    color: white;
+  }
+}
+// service times
+#cp-servicetimes--gozoypaz {
+
+}
+#cp-servicetimes--elcamino {
+
+}
+// location
+#cp-location--gozoypaz {
+
+}
+#cp-location--elcamino {
+  background-color: #2980b9;
+}
+// ministries
+#cp-ministries--gozoypaz {
+
+}
+#cp-ministries--elcamino {
+
+}
+
+
+//
+//
+// ministires page
+//
+//
+#elcamino--ministries-kids {
+  background-color: #3498db;
+  color: white;
+}
+#elcamino--ministries-youth {
+  background-color: #2ecc71;
+  color: white;
+}
+#elcamino--ministries-women {
+  background-color: #9b59b6;
+  color: white;
+}
+#elcamino--ministries-men {
+  background-color: #34495e;
+  color: white;
+}
+
+
+//
+//
+// cedecam
+//
+//
+#cedecam--bible-institute {
+  background-color: #34495e;
+  color: white;
+  .section-title {
+    font-weight: normal;
+  }
+}
+
+#cedecam--dance-academy {
+  background-color: #9b59b6;
+  color: white;
+  .section-title {
+    font-weight: normal;
+  }
+}
+
+
+//
+//
+// saca
+//
+//
+#saca--english-classes {
+  background-color: #e74c3c;
+  color: white;
+  .section-title {
+    font-weight: normal;
+  }
+}
+
+
+
+
+
+
+
+//
+//
+// footer
+//
+//
+#footer {
+  background-color: black;
+  color: white;
+  .footer--title {
+    padding: none;
+    padding-top: 10px;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,80 @@
+// parallax
+
+// parallax effect for smaller sections
+section.module.parallax {
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+// parallax effect for header section
+section.module.parallax-header {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: #fff;
+  font-size: 60px;
+  padding-top: 20px;
+  line-height: 80px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-header h1 {
+  color: #fff;
+  font-size: 70px;
+  padding-top: 100px;
+  line-height: 80px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+// parallax images
+#mp-header {
+  background-image: url(../img/worship.jpeg);
+}
+
+
+//
+@media (max-width: 768px) {
+
+  section.module.parallax {
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;;
+    background-size: cover;
+  }
+
+  section.module.parallax-header {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;;
+    background-size: cover;
+    color: white;
+  }
+
+  section.module.parallax-header h1 {
+    color: #fff;
+    font-size: 48px;
+    padding-top: 100px;
+    line-height: 80px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+}

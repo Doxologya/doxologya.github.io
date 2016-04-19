@@ -1,0 +1,113 @@
+---
+layout: default
+
+title: El Camino
+
+welcome:
+  titlemessage: Bienvenidos
+
+servicetimes:
+  titlemessage: Tiempos de Servicio
+  sunday:
+    title: Domingo
+    time: 1:45 PM
+  friday:
+    title: Viernes
+    time: 7:30 PM
+
+location:
+  titlemessage: Ubicación
+  address: 8118 Tezel Rd, San Antonio, TX 78250
+
+ministries:
+  titlemessage: Ministerios
+
+  kids:
+    title: Ministerio de Niños
+    name: Niños para Cristo
+  youth:
+    title: Ministerio de Jovenes
+    name: DXA Generation
+  women:
+    title: Ministerio de Mujeres
+    name:
+  men:
+    title: Ministerio de Varones
+    name:
+---
+
+<div class="">
+
+  <!-- header -->
+  <section id="cp-header--elcamino">
+    <div class="container text-center">
+      <h1>{{page.title}}</h1>
+    </div>
+  </section>
+
+  <!-- welcome -->
+  <section id="cp-welcome--elcamino">
+    <div class="container text-center">
+      <h1 class="section-title">{{page.welcome.titlemessage}}</h1>
+    </div>
+  </section>
+
+  <!-- service times -->
+  <section id="cp-servicetimes--elcamino">
+    <div class="container text-center">
+      <h1>{{page.servicetimes.titlemessage}}</h1>
+      <h3>{{page.servicetimes.sunday.title}}</h3>
+      <h4>{{page.servicetimes.sunday.time}}</h4>
+      <h3>{{page.servicetimes.friday.title}}</h3>
+      <h4>{{page.servicetimes.friday.time}}</h4>
+    </div>
+  </section>
+
+  <!-- location -->
+  <section id="cp-location--elcamino">
+    <div class="container text-center">
+      <h1>{{page.location.titlemessage}}</h1>
+      <h2>{{page.location.address}}</h2>
+      <button class="btn">
+        <a href="">Direcciones</a>
+      </button>
+    </div>
+  </section>
+
+  <!-- ministeries -->
+  <section id="cp-ministries--elcamino">
+    <div class="container text-center">
+      <!-- section tile -->
+      <a href="/elcamino/ministerios">
+        <h1>{{page.ministries.titlemessage}}</h1>
+      </a>
+      <div class="row">
+        <!-- kids minsitry -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <h4>{{page.ministries.kids.title}}</h4>
+          <img src="" class="img-responsive" alt="kids ministry image">
+          <h4>{{page.ministries.kids.name}}</h4>
+        </div>
+        <!-- youth minsitry -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <h4>{{page.ministries.youth.title}}</h4>
+          <img src="" class="img-responsive" alt="youth ministry image">
+          <h4>{{page.ministries.youth.name}}</h4>
+        </div>
+        <!-- women's ministry -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <h4>{{page.ministries.women.title}}</h4>
+          <img src="" class="img-responsive" alt="women's ministry image">
+          <h4>{{page.ministries.women.name}}</h4>
+        </div>
+        <!-- men's ministry -->
+        <div class="col-sm-12 col-md-3 col-lg-3">
+          <h4>{{page.ministries.men.title}}</h4>
+          <img src="" class="img-responsive" alt="men's ministry image">
+          <h4>{{page.ministries.men.name}}</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>

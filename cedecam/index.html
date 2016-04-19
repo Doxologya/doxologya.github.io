@@ -1,0 +1,68 @@
+---
+layout: default
+
+title: Centro de Capacitacion Ministerial
+
+bibleinstitute:
+  title:
+  name: Instituto Biblico
+  description: Pastor, Lider, Creyente, esta es su oportunidad de
+  location:
+  time:
+
+danceacademy:
+  title:
+  name: Academia Danzas Al Gran Rey
+  description: Clases de danza Cristiana.
+  location: location
+  nextmeeting: time
+
+---
+
+<div class="">
+
+  <!-- header -->
+  <section>
+    <div class="container text-center">
+      <h1>{{page.title}}</h1>
+    </div>
+  </section>
+
+  <!-- bible institute -->
+  <section id="cedecam--bible-institute">
+    <div class="container">
+      <h2 class="section-title">{{page.bibleinstitute.name}}</h2>
+      <h5>
+        {{page.bibleinstitute.description}}
+      </h5>
+      <h5>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        {{page.bibleinstitute.location}}
+      </h5>
+    </div>
+  </section>
+
+  <!-- dance acamdemy -->
+  <section id="cedecam--dance-academy">
+    <div class="container">
+      <h2 class="section-title">{{page.danceacademy.name}}</h2>
+      <!-- description -->
+      <h5>
+        {{page.danceacademy.description}}
+      </h5>
+      <!-- location -->
+      <h5>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        {{page.danceacademy.location}}
+      </h5>
+      <!-- next meeting -->
+      <h5>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {{page.danceacademy.nextmeeting}}
+      </h5>
+    </div>
+  </section>
+
+
+
+</div>

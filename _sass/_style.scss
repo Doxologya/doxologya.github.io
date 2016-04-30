@@ -123,7 +123,7 @@ a, .no-style:hover {
 
 //
 //
-// ministires page
+// el camino ministires page
 //
 //
 #elcamino--ministries-kids {
@@ -142,7 +142,13 @@ a, .no-style:hover {
   background-color: #34495e;
   color: white;
 }
-
+//
+// el camino - dxa generation page
+//
+#elcamino--ministries-dxageneration {
+  background-color: black;
+  color: white;
+}
 
 //
 //
@@ -180,8 +186,42 @@ a, .no-style:hover {
 }
 
 
+//
+//
+// contact
+//
+//
+#contact--header {
 
+}
 
+#contact--form {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inputpadding {
+  padding-bottom: 10px;
+}
+
+//
+//
+// radio
+//
+//
+#radio--header {
+  background-color: #2980b9;
+  h1 {
+    color: white;
+  }
+}
+#radio--description {
+  background-color: black;
+  color: white;
+}
+#radio--player {
+  background-color: black;
+}
 
 
 

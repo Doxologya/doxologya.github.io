@@ -7,6 +7,7 @@ header:
 
 welcome:
   titlemessage: Bienvenidos!
+  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 locations:
   titlemessage: Acompáñanos este Domingo!
@@ -52,6 +53,9 @@ cedecam:
   <section id="mp-section--welcome">
     <div class="container text-center">
       <h1 class="section-title">{{page.welcome.titlemessage}}</h1>
+      <h5>
+        {{page.welcome.message}}
+      </h5>
     </div>
   </section>
 
@@ -70,7 +74,7 @@ cedecam:
               <!-- area -->
               <h1 class="church-location--area">{{page.locations.gozoypaz.area}}</h1>
               <!-- image -->
-              <img src="{{page.locations.gozoypaz.image}}" alt="Gozo y Paz" />
+              <img src="{{page.locations.gozoypaz.image}}" class="img-responsive img-circle" alt="Gozo y Paz"/>
               <!-- title -->
               <h1 class="church-location--title">{{page.locations.gozoypaz.title}}</h1>
             </a>
@@ -82,7 +86,7 @@ cedecam:
               <!-- area -->
               <h1 class="church-location--area">{{page.locations.elcamino.area}}</h1>
               <!-- image -->
-              <img src="{{page.locations.elcamino.image}}" alt="El Camino" />
+              <img src="{{page.locations.elcamino.image}}" class="img-responsive img-circle" alt="El Camino"/>
               <!-- title -->
               <h1 class="church-location--title">{{page.locations.elcamino.title}}</h1>
             </a>

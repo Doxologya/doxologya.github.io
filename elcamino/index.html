@@ -18,6 +18,7 @@ servicetimes:
 location:
   titlemessage: Ubicación
   address: 8118 Tezel Rd, San Antonio, TX 78250
+  embedurl : https://www.google.com/maps/place/8118+Tezel+Rd,+San+Antonio,+TX+78250/@29.5169925,-98.6644503,17z/data=!3m1!4b1!4m2!3m1!1s0x865c6807cfafa303:0xfdd68cdd10fde954"
 
 ministries:
   titlemessage: Ministerios
@@ -67,9 +68,12 @@ ministries:
   <section id="cp-location--elcamino">
     <div class="container text-center">
       <h1>{{page.location.titlemessage}}</h1>
+      <!-- <div class="embed-responsive embed-responsive-4by3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.978273509543!2d-98.66445034984515!3d29.516992481989256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c6807cfafa303%3A0xfdd68cdd10fde954!2s8118+Tezel+Rd%2C+San+Antonio%2C+TX+78250!5e0!3m2!1sen!2sus!4v1461462915054" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div> -->
       <h2>{{page.location.address}}</h2>
       <button class="btn">
-        <a href="">Direcciones</a>
+        <a href="{{page.location.embedurl}}" target="_blank">Direcciones</a>
       </button>
     </div>
   </section>

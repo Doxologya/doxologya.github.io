@@ -12,10 +12,12 @@ bibleinstitute:
 
 danceacademy:
   title:
-  name: Academia Danzas Al Gran Rey
-  description: Clases de danza Cristiana.
-  location: location
-  nextmeeting: time
+  name: Academia "Danzas Al Gran Rey"
+  description: Clases Intensivas de Danza Cristiana
+  location: 9017 Marbach Rd. Suite 200. San Antonio, TX 78245
+  time: 9:00 am to 12:00 pm
+  nextmeeting: Sabado 21 de Mayo
+  info: Mas Inf. Gloria Peña - (210) 689-0048
 
 ---
 
@@ -47,18 +49,28 @@ danceacademy:
     <div class="container">
       <h2 class="section-title">{{page.danceacademy.name}}</h2>
       <!-- description -->
-      <h5>
+      <h4>
         {{page.danceacademy.description}}
-      </h5>
+      </h4>
       <!-- location -->
       <h5>
         <i class="fa fa-map-marker" aria-hidden="true"></i>
         {{page.danceacademy.location}}
       </h5>
-      <!-- next meeting -->
+      <!-- time -->
       <h5>
         <i class="fa fa-clock-o" aria-hidden="true"></i>
+        {{page.danceacademy.time}}
+      </h5>
+      <!-- next meeting -->
+      <h5>
+        <i class="fa fa-calendar" aria-hidden="true"></i>
         {{page.danceacademy.nextmeeting}}
+      </h5>
+      <!-- next meeting -->
+      <h5>
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        {{page.danceacademy.info}}
       </h5>
     </div>
   </section>
